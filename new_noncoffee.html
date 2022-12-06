@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+    <head>
+        <title>화면구현_이초롱</title>
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/common.css">
+        <link rel="stylesheet" type="text/css" href="css/new.css">
+    </head>
+    <body>
+        <header>
+            <h1>
+                <a href="index.html">
+                    <img src="img/mainlogo.png" alt="로고 이미지" width="100px" height="80px"/>
+                    <p>CoFféee</p>
+                </a>
+            </h1>
+            <div id="blue_line">   
+                <ul id="log_join">
+                    <li>
+                        <a class="not_bold" href="#">
+                            Log in
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="not_bold" href="#">
+                            Join us
+                        </a>
+                    </li>
+                </ul>
+                <div id="search_box">
+                    <form action="#" method="get">
+                        <fieldset>
+                            <legend>검색</legend>
+                            <input id="search_btn" type="image" src="img/search_btn.png" width="20px" height="30px"/>
+                            <input id="search_area" type="search" />
+                        </fieldset>
+                    </form>
+                </div>
+                <nav id="main_menu">
+                    <ul id="main_f">
+                        <li  class="first_menu">
+                            <a class="f_m" href="new_coffee.html">NEW</a>
+                            <ul class="sub_menu">
+                                <li>
+                                    <a class="nd" href="new_coffee.html#new_allmenu_coffee">Coffee</a>
+                                </li>
+                                <li>
+                                    <a class="nd" href="new_noncoffee.html">Non Coffee</a>
+                                        <a href="new_noncoffee.html#new_allmenu_smoothie">스무디&쥬스</a>
+                                        <a href="new_noncoffee.html#new_allmenu_frappuccino">프라프치노 & 블랜디드</a>
+                                        <a href="new_noncoffee.html#new_allmenu_ade">에이드&티</a>
+                                        <a href="new_noncoffee.html#new_allmenu_others">Others</a>
+                                </li>
+                                <li>
+                                    <a class="nd" href="new_dessert.html">Dessert</a>
+                                        <a href="new_dessert.html#new_allmenu_bakery">베이커리</a>
+                                        <a href="new_dessert.html#new_allmenu_snack">스낵 & 미니 디저트</a>
+                                        <a href="new_dessert.html#new_allmenu_ice">아이스크림 & 플레이크</a>
+                                </li>
+                                <li id="small_w_ad">
+                                    <a href="#">
+                                        <img src="img/2022_christmas_main_drink_03_0211.png" alt="스타벅스 캐모마일 릴렉서" width="200px" height="300px"/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a id="hidden_btn" href="#">보러가기</a>
+                                </li>
+
+
+                            </ul>
+                        </li>
+
+                        <li class="first_menu">
+                            <a class="f_m" href="goodspage.html">Goods</a>
+                            <ul id="sub_g" class="sub_menu">
+                                <li>
+                                    <a class="nd" href="#">다이어리</a>
+                                    <a class="small_ad" href="#">
+                                    <img src="img/g1.jpg" alt="다이어리" width="100px"/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="nd" href="#">텀블러/머그</a>
+                                    <a class="small_ad" href="#">
+                                        <img src="img/small_ad01.jpg" alt="다이어리" width="100px"/>
+                                        </a>
+                                </li>
+                                <li>
+                                    <a class="nd" href="#">문구류</a>
+                                    <a class="small_ad" href="#">
+                                        <img src="img/small_ad03.jpg" alt="다이어리" width="100px"/>
+                                        </a>
+                                </li>
+                                <li>
+                                    <a class="nd" href="#">커피용품</a>
+                                    <a class="small_ad" href="#">
+                                        <img src="img/small_ad04.jpg" alt="다이어리" width="100px"/>
+                                        </a>
+                                   
+                                </li>
+                                <li>
+                                    <a class="nd" href="#">Others</a>
+                                    <a class="small_ad" href="#">
+                                        <img src="img/small_ad05.jpg" alt="다이어리" width="100px"/>
+                                        </a>
+                                    
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="first_menu">
+                            <a class="f_m" href="special.html">Special</a>
+                            <ul id="sub_s" class="sub_menu">
+                                <li>
+                                    <a class="nd" href="#">국내</a>
+                                    <a href="#">음료</a>
+                                    <a href="#">굿즈</a>
+                                </li>
+                                <li>
+                                    <a class="nd" href="#">해외</a>
+                                    <a href="#">음료</a>
+                                    <a href="#">굿즈</a>
+                                </li>
+
+                            </ul>
+                            
+                        </li>
+                        <li class="first_menu">
+                            <a class="f_m" href="map.html">Cafes</a>
+                            <ul id="sub_c" class="sub_menu" >
+                                <li>
+                                    <a class="nd" href="#">
+                                        내 주변 매장
+                                    </a>
+                                    <form class="form_m" action="#" method="get">
+                                        <fieldset>
+                                            <legend>주소 검색</legend>
+                                        </fieldset>
+                                        <input type="text" placeholder="출발지 입력"/>
+                                    </form>
+                                    
+                                </li>
+                                <li>
+                                    <a class="nd" href="#">
+                                        드라이브 스루
+                                    </a>
+                                    <form class="form_m" action="#" method="get">
+                                        <fieldset>
+                                            <legend>주소 검색</legend>
+                                        </fieldset>
+                                        <input type="text" placeholder="출발지 입력"/>
+                                    </form>
+                                    
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="first_menu">
+                            <a class="f_m" href="cal.html">Calendar</a>
+                            <ul id="sub_w" class="sub_menu">
+                                
+                                <li><a class="nd" href="#">Calendar!</a></li>
+                                <li><a href="#"><img src="img/monthly.png" alt="이미지1"/></a></li>
+                                <li><a href="#"><img src="img/monthly.png" alt="이미지1"/></a></li>
+                                <li><a href="#"><img src="img/monthly.png" alt="이미지1"/></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav> 
+            </div>
+        </header>
+
+        <div id="container">
+            <img id="new_bg" src="img/new_nc_bg.jpg" />
+            <h2 id="bg_letter_b">Non-Coffee</h2>
+            <section id="new_select">
+                <ul id="new_banner">
+                    <li>
+                        <a href="new_coffee.html">Coffee</a>
+                        <ul>
+                            <li>
+                                <a href="new_coffee.html#new_allmenu_coffee">Coffee</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="new_noncoffee.html">Non-Coffee</a>
+                        <ul>
+                            <li>
+                                <a href="new_noncoffee.html#new_allmenu_smoothie">스무디&amp;주스</a>
+                            </li>
+                            <li>
+                                <a href="new_noncoffee.html#new_allmenu_frappuccino">프라프치노&amp;블렌디드</a>
+                            </li>
+                            <li>
+                                <a href="new_noncoffee.html#new_allmenu_ade">에이드&amp;티</a>
+                            </li>
+                            <li>
+                                <a href="new_noncoffee.html#new_allmenu_others">Ohters</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="new_dessert.html">Dessert</a>
+                        <ul>
+                            <li>
+                                <a href="new_dessert.html#new_allmenu_bakery">베이커리</a>
+                            </li>
+                            <li>
+                                <a href="new_dessert.html#new_allmenu_snack">스낵&amp;미니 디저트</a>
+                            </li>
+                            <li>
+                                <a href="new_dessert.html#new_allmenu_ice">아이스크림&amp;플레이크</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section id="new_allmenu">
+                <h3 id="new_allmenu_smoothie">스무디&amp;주스</h3>
+                <a id="more1" class="more_btn" href="#"><span class="see_more underlineover">see more</span></a>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/new_nc_01.jpg" alt="논커피신메뉴01" />
+                            <span>블루베리 요거트</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/new_nc_02.jpg" alt="논커피신메뉴02" />
+                            <span>햇사과 주스</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/new_nc_03.jpg" alt="논커피신메뉴03" />
+                            <span>필 더 그린</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/new_nc_04.jpg" alt="논커피신메뉴04" />
+                            <span>필 더 레드</span>
+                        </a>
+                    </li> 
+                </ul>
+                <h3 id="new_allmenu_frappuccino">프라프치노&amp;블렌디드</h3>
+                <a id="more2" class="more_btn" href="#"><span class="see_more underlineover">see more</span></a>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/new_nc_05.jpg" alt="논커피신메뉴05" />
+                            <span>말차 크림 프라푸치노</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/new_nc_06.jpg" alt="논커피신메뉴06" />
+                            <span>화이트 타이거 프라푸치노</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/new_nc_07.jpg" alt="논커피신메뉴07" />
+                            <span>망고 패션 프루트 블렌디드</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/new_nc_08.jpg" alt="논커피신메뉴08" />
+                            <span>딜라이트 요거트 블렌디드</span>
+                        </a>
+                    </li>
+                </ul>
+                <h3 id="new_allmenu_ade">에이드&amp;티</h3>
+                <a id="more3" class="more_btn" href="#"><span class="see_more underlineover">see more</span></a>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/new_nc_09.jpg" alt="논커피신메뉴09" />
+                            <span>아이스 오로라 캐모마일 릴렉서</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/new_nc_10.jpg" alt="논커피신메뉴10" />
+                            <span>아이스 제주 금귤 민트 티</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/new_nc_11.jpg" alt="논커피신메뉴11" />
+                            <span>오로라 캐모마일 릴렉서</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/new_nc_12.jpg" alt="논커피신메뉴12" />
+                            <span>제주 금귤 민트 티</span>
+                        </a>
+                    </li>
+                </ul>
+                <h3 id="new_allmenu_others">Ohters</h3>
+                <a id="more4" class="more_btn" href="#"><span class="see_more underlineover">see more</span></a>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/new_nc_13.jpg" alt="논커피신메뉴13" />
+                            <span>스타벅스 슬래머</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/new_nc_14.jpg" alt="논커피신메뉴14" />
+                            <span>스팀 우유</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/new_nc_15.jpg" alt="논커피신메뉴15" />
+                            <span>플러피 판다 아이스 초콜릿</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/new_nc_16.jpg" alt="논커피신메뉴16" />
+                            <span>시그니처 핫 초콜릿</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </section>
+
+            <footer>
+                <div id="footer_bg">
+                    <div id="footer_01">
+                        <ul>
+                            <li>
+                                <h3 class="footer_tit">INFO</h3>
+                                <p>
+                                    CEO 이초롱<br/>
+                                    사업자등록번호 123-45-67890<br/>
+                                    T 010-3269-0268 F 02-123-4560<br/>
+                                    mararongsya@gmail.com
+                                </p>
+                            </li>
+                            <li>
+                                <h3 class="footer_tit">찾아 오시는 길</h3>
+                                <p>
+                                    <address>
+                                        서울 특별시 종로구 134-4 JD빌딩 97층
+                                    </address>
+                                </p>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <div id="footer_02">
+                        <div id="footer_02_all">
+                            <h3 class="footer_tit">Follow us</h3>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/facebook.png" alt="00로 바로가기"/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/youtube.png" alt="00로 바로가기"/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/insta.png" alt="00로 바로가기"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

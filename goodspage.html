@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+    <head>
+        <title>GoodsㅣCoFf2ee</title>
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/common.css">
+        <link rel="stylesheet" type="text/css" href="css/goodspage.css">
+    </head>
+    <body>
+        <header>
+            <h1>
+                <a href="./index.html">
+                    <img src="img/mainlogo.png" alt="로고 이미지" width="100px" height="80px"/>
+                    <p>CoFf2ee</p>
+                </a>
+            </h1>
+
+            <div id="blue_line">   
+                <ul id="log_join">
+                    <li>
+                        <a class="not_bold" href="#">
+                            Log in
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="not_bold" href="#">
+                            Join us
+                        </a>
+                    </li>
+                </ul>
+
+                <div id="search_box">
+                    <form action="#" method="get">
+                        <fieldset>
+                            <legend>검색</legend>
+                            <input id="search_btn" type="image" src="img/search_btn.png" width="20px" height="30px"/>
+                            <input id="search_area" type="search" />
+                           
+                        </fieldset>
+                    </form>
+                </div>
+
+            
+          
+            <!-- -------------nav 시작 ---------------------------------------->
+                <nav id="main_menu">
+                    <ul id="main_f">
+                        <li  class="first_menu">
+                            <a class="f_m" href="new_coffee.html">NEW</a>
+                            <ul class="sub_menu">
+                                <li>
+                                    <a class="nd" href="new_coffee.html#new_allmenu_coffee">Coffee</a>
+                                </li>
+                                <li>
+                                    <a class="nd" href="new_noncoffee.html">Non Coffee</a>
+                                        <a href="new_noncoffee.html#new_allmenu_smoothie">스무디&쥬스</a>
+                                        <a href="new_noncoffee.html#new_allmenu_frappuccino">프라프치노 & 블랜디드</a>
+                                        <a href="new_noncoffee.html#new_allmenu_ade">에이드&티</a>
+                                        <a href="new_noncoffee.html#new_allmenu_others">Others</a>
+                                </li>
+                                <li>
+                                    <a class="nd" href="new_dessert.html">Dessert</a>
+                                        <a href="new_dessert.html#new_allmenu_bakery">베이커리</a>
+                                        <a href="new_dessert.html#new_allmenu_snack">스낵 & 미니 디저트</a>
+                                        <a href="new_dessert.html#new_allmenu_ice">아이스크림 & 플레이크</a>
+                                </li>
+                                <li id="small_w_ad">
+                                    <a href="#">
+                                        <img src="img/2022_christmas_main_drink_03_0211.png" alt="스타벅스 캐모마일 릴렉서" width="200px" height="300px"/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a id="hidden_btn" href="#">보러가기</a>
+                                </li>
+
+
+                            </ul>
+                        </li>
+
+                        <li class="first_menu">
+                            <a class="f_m" href="./goodspage.html">Goods</a>
+                            <ul id="sub_g" class="sub_menu">
+                                <li>
+                                    <a class="nd" href="#">다이어리</a>
+                                    <a class="small_ad" href="#">
+                                    <img src="img/g1.jpg" alt="다이어리" width="100px"/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="nd" href="#">텀블러/머그</a>
+                                    <a class="small_ad" href="#">
+                                        <img src="img/small_ad01.jpg" alt="다이어리" width="100px"/>
+                                        </a>
+                                </li>
+                                <li>
+                                    <a class="nd" href="#">문구류</a>
+                                    <a class="small_ad" href="#">
+                                        <img src="img/small_ad03.jpg" alt="다이어리" width="100px"/>
+                                        </a>
+                                </li>
+                                <li>
+                                    <a class="nd" href="#">커피용품</a>
+                                    <a class="small_ad" href="#">
+                                        <img src="img/small_ad04.jpg" alt="다이어리" width="100px"/>
+                                        </a>
+                                   
+                                </li>
+                                <li>
+                                    <a class="nd" href="#">Others</a>
+                                    <a class="small_ad" href="#">
+                                        <img src="img/small_ad05.jpg" alt="다이어리" width="100px"/>
+                                        </a>
+                                    
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="first_menu">
+                            <a class="f_m" href="./special.html">Special</a>
+                            <ul id="sub_s" class="sub_menu">
+                                <li>
+                                    <a class="nd" href="#">국내</a>
+                                    <a href="#">음료</a>
+                                    <a href="#">굿즈</a>
+                                </li>
+                                <li>
+                                    <a class="nd" href="#">해외</a>
+                                    <a href="#">음료</a>
+                                    <a href="#">굿즈</a>
+                                </li>
+
+                            </ul>
+                            
+                        </li>
+                        <li class="first_menu">
+                            <a class="f_m" href="#">Cafes</a>
+                            <ul id="sub_c" class="sub_menu" >
+                                <li>
+                                    <a class="nd" href="./map.html">
+                                        내 주변 매장
+                                    </a>
+                                    <form class="form_m" action="#" method="get">
+                                        <fieldset>
+                                            <legend>주소 검색</legend>
+                                        </fieldset>
+                                        <input type="text" placeholder="출발지 입력"/>
+                                    </form>
+                                    
+                                </li>
+                                <li>
+                                    <a class="nd" href="#">
+                                        드라이브 스루
+                                    </a>
+                                    <form class="form_m" action="#" method="get">
+                                        <fieldset>
+                                            <legend>주소 검색</legend>
+                                        </fieldset>
+                                        <input type="text" placeholder="출발지 입력"/>
+                                    </form>
+                                    
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="first_menu">
+                            <a class="f_m" href="./cal.html">Calender</a>
+                            <ul id="sub_w" class="sub_menu">
+                                
+                                <li><a class="nd" href="#">Calender!</a></li>
+                                <li><a href="#"><img src="img/monthly.png" alt="이미지1"/></a></li>
+                                <li><a href="#"><img src="img/monthly.png" alt="이미지1"/></a></li>
+                                <li><a href="#"><img src="img/monthly.png" alt="이미지1"/></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav> 
+
+            </div>
+
+
+            <!-- ------------------------------------------------------------------------- -->
+        </header>
+
+        <!------컨텐츠 시작----------------------->
+        <div id="ad">
+            <img src="img/goods_main.jpg" />
+             <span>ALL GOODS</span>
+          </div>   
+        
+        <hr>
+        <section id="diary">
+            <h2>Diary</h2>
+            <p class="menuname">Diary</p>
+            <a id="more1" class="more_btn" href="#"><span class="see_more underlineover">see more</span></a>
+            <ul>
+             <a href="#">
+                 <li>
+                     <img src="img/tomntoms_diary.jpg" alt="다이어리1" />
+                     <p>Tom N Toms</p>
+                     
+                 </li>
+             </a>
+             <a href="#">
+                 <li>
+                     <img src="img/coffeebean_diary.jpg" alt="다이어리2" />
+                     <p>Coffee Bean</p>
+                 </li>
+             </a>
+             <a href="#">
+                 <li>
+                     <img src="img/ediya_diary.jpg" alt="다이어리3" />
+                     <p>Ediya Coffee</p>
+                 </li>
+             </a>
+             <a href="#">
+                 <li>
+                     <img src="img/starbucks_diary.jpg" alt="다이어리4" />
+                     <p>Starbucks</p>
+                 </li>
+             </a>
+            </ul>
+         </section>
+         <!-- <p class="menuname">Mug</p> -->
+         <section id="mug">
+             <h2>mug</h2>
+             <p class="menuname">Mug</p>
+             <a id="more2" class="more_btn" href="#"><span class="see_more underlineover">see more</span></a>
+             <ul>
+              <a href="#">
+                  <li>
+                      <img src="img/bluebottle_mug.jpg" alt="머그1" />
+                      <p>Blue Bottle</p>
+                  </li>
+              </a>
+              <a href="#">
+                  <li>
+                      <img src="img/twosome_mug.jpg" alt="머그2" />
+                      <p>TwoSome Place</p>
+                  </li>
+              </a>
+              <a href="#">
+                  <li>
+                      <img src="img/starbucks_mug.jpg" width="100" height="100" alt="머그3" />
+                      <p>Starbucks</p>
+                  </li>
+              </a>
+              <a href="#">
+                  <li>
+                      <img src="img/ediya_mug.jpg" alt="머그4" />
+                      <p>Ediya Coffee</p>
+                  </li>
+              </a>
+             </ul>
+          </section>
+        
+         <section id="three">
+            <p class="menuname">Etc</p> 
+            <div id="tumbler" class="bottom">
+              <h3>텀블러</h3>
+              <a href="#"><img class="door" src="img/tumblerdoor.jpg" alt="텀블러 대표이미지"></a>
+              <ul id="tumbler_s" class="in_one">
+                  <a href="#">
+                     <li>
+                      <a href="#"><img class="small_img big" src="img/starbucks_tumbler.jpg.png" alt="텀블러1">
+                        <p class="bottom_t">
+                          <span>Starbucks</span>
+                          <span class="small_s">Mug Tumbler</span>
+                          <!-- <span>텀블러 가격1 </span> -->
+                       </p>
+                    </li>  
+                    <li>
+                       <img class="small_img" src="img/tumbler.webp" alt="텀블러2">
+                       <p class="bottom_t">
+                          <span>Caffe Pascucci</span>
+                          <span class="small_s">Travel Tumbler</span>
+                          <!-- <span>텀블러 가격2 </span> -->
+                       </p>
+                   </li> 
+                    <li> 
+                     <img class="small_img big" src="img/twosome_tumbler.jpg.png" alt="텀블러3">
+                        <p class="bottom_t">
+                          <span>TwoSome Place</span>
+                          <span class="small_s">Twin Tumbler</span>
+                          <!-- <span>텀블러 가격3 </span> -->
+                       </p> 
+                   </li> 
+                  </a>
+              </ul>    
+          </div>
+       
+          <div id="stationery" class="bottom">
+             <h3>문구류</h3>
+             <a href="#"><img class="door" src="img/stationerydoor.jpg" alt="문구류 대표이미지"></a>
+             <ul id="stationery_s" class="in_one">
+                 <li>
+                  <a href="#"><img class="small_img" src="img/tshirt.webp" alt="문구류1">
+                     <p class="bottom_t">
+                         <span>Hollys Coffee</span>
+                         <span class="small_s">Hollys T-Shirt </span>
+                         <!-- <span>문구류 가격1 </span> -->
+                     </p>
+                 </li>  
+                 <li><img class="small_img" src="img/echobag.webp" alt="문구류2">
+                     <p class="bottom_t">
+                         <span>Davinci Coffee</span>
+                         <span class="small_s">Echo Bag</span>
+                         <!-- <span>문구류 가격2 </span> -->
+                     </p>
+                 </li> 
+                 <li><img class="small_img" src="img/coffee_journal.png" alt="문구류3">
+                     <p class="bottom_t">
+                         <span>Coffee Bean</span>
+                         <span class="small_s">Coffee Journal</span>
+                         <!-- <span>문구류 가격3 </span> -->
+                     </p>
+                    </a>
+                 </li> 
+             </ul>
+          </div>
+          <div id="others" class="bottom">
+             <h3>others</h3>
+             <a href="#"><img class="door othersdoor" src="img/othersdoor.webp" alt="others 대표이미지"></a>
+             <ul id="others_s" class="in_one">
+                 <li>
+                  <a href="#"><img class="small_img" src="img/others_coffeemaker.webp" alt="others1">
+                     <p class="bottom_t">
+                         <span>Starbucks</span>
+                         <span class="small_s">Coffee Maker</span>
+                         <!-- <span>others 가격1 </span> -->
+                     </p>
+                 </li>  
+                 <li><img class="small_img" src="img/coffeemachine.webp" alt="others2">
+                     <p class="bottom_t">
+                         <span>Paul Bassett</span>
+                         <span class="small_s">Cold Brew Grinder</span>
+                         <!-- <span>others 가격2 </span> -->
+                     </p>
+                 </li> 
+                 <li><img class="small_img" src="img/coffee_pot.png" alt="others3">
+                     <p class="bottom_t">
+                         <span>Caffe Pascucci</span>
+                         <span class="small_s">Coffee Pot </span>
+                         <!-- <span>others 가격3 </span> -->
+                     </p>
+                    </a>
+                 </li> 
+             </ul>
+           </div>
+           <a id="more" class="more_btn" href="#"><span class="see_more underlineover">see more</span></a> 
+     </section> 
+        
+
+
+        <!------컨테츠 끝------>
+            <footer>
+                <div id="footer_bg">
+                    <div id="footer_01">
+                        <ul>
+                            <li>
+                                <h3 class="footer_tit">INFO</h3>
+                                <p>
+                                    CEO 이초롱<br/>
+                                    사업자등록번호 123-45-67890<br/>
+                                    T 010-3269-0268 F 02-123-4560<br/>
+                                    mararongsya@gmail.com
+                                </p>
+                            </li>
+                            <li>
+                                <h3 class="footer_tit">찾아 오시는 길</h3>
+                                <p>
+                                    <address>
+                                        서울 특별시 종로구 134-4 JD빌딩 97층
+                                    </address>
+                                </p>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <div id="footer_02">
+                        <div id="footer_02_all">
+                            <h3 class="footer_tit">Follow us</h3>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/facebook.png" alt="00로 바로가기"/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/youtube.png" alt="00로 바로가기"/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/insta.png" alt="00로 바로가기"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        
+    </body>
+
+</html>
